@@ -33,6 +33,7 @@
     padding: 10px 0 10px 10px;
     border-radius: 10px;
     outline: none;
+    border: 3px solid #000;
 }
 
 .btn{
@@ -54,3 +55,21 @@ img{
     justify-content: center;
 }
 
+
+
+/* media query */
+
+
+@media(max-width: 768px){
+
+    .input_main{
+
+        width: 80%;
+    }
+
+    img{
+
+        width: 60%;
+        object-fit: cover;
+    }
+}
